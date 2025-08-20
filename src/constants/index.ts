@@ -106,7 +106,7 @@ const projects = [
             },
         ],
         image: iMovies,
-        source_code_link: "https://github.com/Abdurauf1/iMovies",
+        source_code_link: "https://github.com/aabdurauf/iMovies",
     },
     {
         name: "projects.projectCards.lofi.title",
@@ -131,11 +131,11 @@ const projects = [
             },
         ],
         image: lofi,
-        source_code_link: "https://github.com/Abdurauf1/lofi",
+        source_code_link: "https://github.com/aabdurauf/lofi",
     },
     {
         name: "projects.projectCards.lumia.title",
-        deploy: "https://abdurauf1.github.io/lumia-clone/",
+        deploy: "https://aabdurauf.github.io/lumia-clone/",
         description: "projects.projectCards.lumia.description",
         tags: [
             {
@@ -156,11 +156,11 @@ const projects = [
             },
         ],
         image: lumiaClone,
-        source_code_link: "https://github.com/Abdurauf1/lumia-clone",
+        source_code_link: "https://github.com/aabdurauf/lumia-clone",
     },
     {
         name: "projects.projectCards.weather.title",
-        deploy: "https://weather-app-abdurauf1.netlify.app/",
+        deploy: "https://weather-app-aabdurauf.netlify.app/",
         description: "projects.projectCards.weather.description",
         tags: [
             {
@@ -177,11 +177,11 @@ const projects = [
             },
         ],
         image: weatherApp,
-        source_code_link: "https://github.com/Abdurauf1/react-weather-app/",
+        source_code_link: "https://github.com/aabdurauf/react-weather-app/",
     },
     {
         name: "projects.projectCards.todo.title",
-        deploy: "https://todo-app-abdurauf1.netlify.app/",
+        deploy: "https://todo-app-aabdurauf.netlify.app/",
         description: "projects.projectCards.todo.description",
         tags: [
             {
@@ -202,11 +202,11 @@ const projects = [
             },
         ],
         image: todoApp,
-        source_code_link: "https://github.com/Abdurauf1/todo-app",
+        source_code_link: "https://github.com/aabdurauf/todo-app",
     },
     {
         name: "projects.projectCards.userManagement.title",
-        deploy: "https://user-management-abdurauf1.netlify.app",
+        deploy: "https://user-management-aabdurauf.netlify.app",
         description: "projects.projectCards.userManagement.description",
         tags: [
             {
@@ -227,11 +227,11 @@ const projects = [
             },
         ],
         image: registerLogin,
-        source_code_link: "https://github.com/Abdurauf1/registration-login",
+        source_code_link: "https://github.com/aabdurauf/registration-login",
     },
     {
         name: "projects.projectCards.rsCV.title",
-        deploy: "https://abdurauf1.github.io/rsschool-cv/",
+        deploy: "https://aabdurauf.github.io/rsschool-cv/",
         description: "projects.projectCards.rsCV.description",
         tags: [
             {
@@ -248,11 +248,11 @@ const projects = [
             },
         ],
         image: portfolioRS,
-        source_code_link: "https://github.com/Abdurauf1/rsschool-cv",
+        source_code_link: "https://github.com/aabdurauf/rsschool-cv",
     },
     {
         name: "projects.projectCards.colorGen.title",
-        deploy: "https://abdurauf1.github.io/random-color-generator/",
+        deploy: "https://aabdurauf.github.io/random-color-generator/",
         description: "projects.projectCards.colorGen.description",
         tags: [
             {
@@ -269,7 +269,7 @@ const projects = [
             },
         ],
         image: colorFlipper,
-        source_code_link: "https://github.com/Abdurauf1/random-color-generator",
+        source_code_link: "https://github.com/aabdurauf/random-color-generator",
     },
 ]
 

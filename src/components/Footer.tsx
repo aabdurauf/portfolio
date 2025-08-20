@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className="flex w-full justify-start gap-4">
-        <a href="https://github.com/Abdurauf1/" className="w-10">
+        <a href="https://github.com/aabdurauf/" className="w-10">
           {theme === "Dark" ?
             <img src={github2} alt="github_icon" />
             :
