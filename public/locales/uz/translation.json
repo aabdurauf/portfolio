@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "Men haqimda",
+    "projects": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "Salom, Men <pink>Abdurauf</pink> - <block>Frontend Dasturchiman</block>",
+    "firstSubtitle": "Zamonaviy Frontend Dasturlash bilan <bold>Qiziqarli Saytlar</bold> va <bold>Dinamik Saytlar</bold> yaratish",
+    "secondSubtitle": "<bold>Yuqori Unumli</bold>, <bold>Foydalanuvchiga yo'naltirilgan</bold> Veb-Ilovalarni yetkazib berish"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "subtitle": "Kirish",
+    "description": "HTML, CSS, JavaScript, TypeScript va React bo'yicha tajribaga ega Frontend Developer, O'zbekiston, Toshkent shahrida joylashgan. Jamoa hamkorligida ham, mustaqil ishda ham malakali bo'lganim uchun men yuqori sifatli, foydalanuvchiga yo'naltirilgan yechimlarni taqdim etaman. Kuchli ish axloqi va natijalarga asoslangan yondashuv bilan uzluksiz o'rganish va o'z ko'nikmalarimni ta'sirchan, real dunyo mahsulotlarida qo'llashga sodiqman."
+  },
+  "projects": {
+    "title": "Loyihalar",
+    "subtitle": "Mening ishim",
+    "description": "Quyidagi loyihalar mening ko'nikmalarim va tajribamni haqiqiy misollar orqali ta'kidlaydi. Har birida kod omborlari va jonli demolarga havolalar bilan birga qisqacha tavsif mavjud. Ular mening murakkab muammolarni hal qilish, turli texnologiyalar bilan ishlash va loyihalarni samarali boshqarish qobiliyatimni namoyish etadi.",
+    "projectCards": {
+      "imovies": {
+        "title": "iMovies",
+        "description": "React & TS bilan yaratilgan film veb-ilovasi foydalanuvchilarga filmlar va seriallar treylerini qidirish va ko'rish imkonini beradi."
+      },
+      "lofi": {
+        "title": "Lofi",
+        "description": "Lofi veb-sahifasi fon musiqasi, yomg'ir va boshqa tovushlar mavjud. U vazifalar ro'yxati va pomodoro taymerini taqdim etadi."
+      },
+      "lumia": {
+        "title": "Lumia Veb Sahifa",
+        "description": "Lumia veb-sahifasi html, css, bootstrap va javascript yordamida yaratilgan."
+      },
+      "weather": {
+        "title": "Ob-havo veb ilovasi",
+        "description": "Hozirgi ob-havo va etti kunlik prognozni olish uchun veb-ilova. Bu API orqali shaharlarni qidirish va ob-havo ma'lumotlarini olish imkonini beradi."
+      },
+      "todo": {
+        "title": "Vazifa bajarish veb ilovasi",
+        "description": "React va typescript yordamida yaratilgan veb-ilova. Bu roʻyxatga vazifa qoʻshish, uni olib tashlash va tahrirlash imkonini beradi."
+      },
+      "userManagement": {
+        "title": "Foydalanuvchilarni boshqarish veb ilovasi",
+        "description": "Foydalanuvchilarni boshqarish to'liq veb ilova. Siz roʻyxatdan oʻtgan foydalanuvchilarni koʻrishingiz, oʻchirishingiz va bloklashingiz mumkin."
+      },
+      "rsCV": {
+        "title": "CV RS School",
+        "description": "O'zim va mening qobiliyatlarim haqida veb-sayt. Ishlatilgan html, scss va typescript. Bu RS maktabining vazifasi."
+      },
+      "colorGen": {
+        "title": "Tasodifiy rang generatori",
+        "description": "Ranglarni tasodifiy va oddiy ranglar va olti burchakli ranglarni o'zgartirishingiz mumkin bo'lgan veb-sayt."
+      }
+    }
+  },
+  "contact": {
+    "title": "Aloqa",
+    "subtitle": "Men bilan bog'laning",
+    "nameLabel": "Ismingiz",
+    "namePlaceholder": "Ismingiz nima?",
+    "emailLabel": "Elektron Pochtangiz",
+    "emailPlaceholder": "Elektron pochtangiz nima?",
+    "messageLabel": "Xabaringiz",
+    "messagePlaceholder": "Nima demoqchisiz?",
+    "send": "Yuborish",
+    "sending": "Yuborilmoqda...",
+    "alertMessage": "Rahmat. Men sizga imkon qadar tezroq aloqaga chiqaman.",
+    "alertError": "Nimadir xato ketdi."
+  }
+}
