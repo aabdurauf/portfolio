@@ -16,7 +16,6 @@ import {
     registerLogin,
     weatherApp,
     github,
-    iMovies,
     lofi,
 } from "../assets"
 
@@ -83,31 +82,6 @@ const technologies = [
 ];
 
 const projects = [
-    {
-        name: "projects.projectCards.imovies.title",
-        deploy: "https://imovies-omega.vercel.app/",
-        description: "projects.projectCards.imovies.description",
-        tags: [
-            {
-                name: "react",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "typescript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "rtk",
-                color: "green-text-gradient",
-            },
-        ],
-        image: iMovies,
-        source_code_link: "https://github.com/aabdurauf/iMovies",
-    },
     {
         name: "projects.projectCards.lofi.title",
         deploy: "https://lofi-five-sigma.vercel.app/",
