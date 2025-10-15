@@ -8,6 +8,8 @@ const styles = {
 
     sectionHeadText: "dark:text-white text-primary font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText: "font-medium text-pink-500 sm:text-[18px] text-[14px] uppercase tracking-wider",
+
+    langButtons: "dark:text-secondary text-primary dark:hover:text-white duration-300"
 }
 
 export { styles }

@@ -12,7 +12,6 @@ import colorFlipper from "./images/projects/color_flipper.png"
 import portfolioRS from "./images/projects/portfolio_rs.jpg"
 import todoApp from "./images/projects/todo_app.png"
 import lumiaClone from "./images/projects/lumia_website.png"
-import registerLogin from "./images/projects/register_login.png"
 import weatherApp from "./images/projects/weather_app.jpg"
 import telegram from "./images/socials/telegram.png"
 import linkedin from "./images/socials/linkedin.png"
@@ -31,7 +30,6 @@ export {
   instagram,
   linkedin,
   weatherApp,
-  registerLogin,
   lumiaClone,
   todoApp,
   colorFlipper,

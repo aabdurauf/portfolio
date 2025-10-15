@@ -23,7 +23,16 @@ const Projects = () => {
         {t("projects.description")}
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-6">
+      <div className="flex gap-5 mt-5">
+        <button className={styles.langButtons}>All</button>
+        <button className={styles.langButtons}>JavaScript</button>
+        <button className={styles.langButtons}>TypeScript</button>
+        <button className={styles.langButtons}>React</button>
+        <button className={styles.langButtons}>Next</button>
+        <button className={styles.langButtons}>Node</button>
+      </div>
+
+      <div className="mt-10 flex flex-wrap gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} index={index} {...project} />
         ))}

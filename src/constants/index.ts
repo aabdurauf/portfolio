@@ -13,7 +13,6 @@ import {
     portfolioRS,
     todoApp,
     lumiaClone,
-    registerLogin,
     weatherApp,
     github,
     lofi,
@@ -177,31 +176,6 @@ const projects = [
         ],
         image: todoApp,
         source_code_link: "https://github.com/aabdurauf/todo-app",
-    },
-    {
-        name: "projects.projectCards.userManagement.title",
-        deploy: "https://user-management-aabdurauf.netlify.app",
-        description: "projects.projectCards.userManagement.description",
-        tags: [
-            {
-                name: "react",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "react-bootstrap",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "nodejs",
-                color: "green-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "blue-text-gradient",
-            },
-        ],
-        image: registerLogin,
-        source_code_link: "https://github.com/aabdurauf/registration-login",
     },
     {
         name: "projects.projectCards.rsCV.title",
