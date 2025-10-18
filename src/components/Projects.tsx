@@ -2,12 +2,20 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { projects } from "../constants";
+import { progLangs, projects } from "../constants";
 import { ProjectCard } from "./";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 const Projects = () => {
   const { t } = useTranslation()
+  const [active, setActive] = useState<string>("All")
+
+  const filterProjects = (projectLang: string) => {
+    if (projectLang !== active) {
+      console.log(active);
+    }
+  }
 
   return (
     <>
@@ -24,13 +32,19 @@ const Projects = () => {
       </motion.p>
 
       <div className="flex gap-5 mt-5">
-        <button className={styles.langButtons}>All</button>
-        <button className={styles.langButtons}>JavaScript</button>
-        <button className={styles.langButtons}>TypeScript</button>
-        <button className={styles.langButtons}>React</button>
-        <button className={styles.langButtons}>Next</button>
-        <button className={styles.langButtons}>Node</button>
-      </div>
+        {progLangs.map((language) => (
+          <button
+            key={language.name}
+            onClick={() => {
+              filterProjects(language.name)
+              setActive(language.name)
+            }}
+            className={`${active === language.name ? "dark:text-white text-primary" : "text-secondaryLightText dark:text-secondary"} hover:text-primary dark:hover:text-white duration-300`}
+          >
+            {language.name}
+          </button>
+        ))}
+      </div >
 
       <div className="mt-10 flex flex-wrap gap-6">
         {projects.map((project, index) => (
