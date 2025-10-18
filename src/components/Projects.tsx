@@ -9,13 +9,7 @@ import { useState } from "react";
 
 const Projects = () => {
   const { t } = useTranslation()
-  const [active, setActive] = useState<string>("projects.langBtns.all")
-
-  const filterProjects = (projectLang: string) => {
-    if (projectLang !== active) {
-      console.log(active);
-    }
-  }
+  const [activeCat, setActiveCat] = useState<string>("projects.langBtns.all")
 
   return (
     <>
@@ -36,10 +30,9 @@ const Projects = () => {
           <button
             key={index}
             onClick={() => {
-              filterProjects(language.name)
-              setActive(language.name)
+              setActiveCat(language.name)
             }}
-            className={`${active === language.name ? "dark:text-white text-primary" : "text-secondaryLightText dark:text-secondary"} hover:text-primary dark:hover:text-white duration-300`}
+            className={`${activeCat === language.name ? "dark:text-white text-primary" : "text-secondaryLightText dark:text-secondary"} hover:text-primary dark:hover:text-white duration-300`}
           >
             {t(language.name)}
           </button>
