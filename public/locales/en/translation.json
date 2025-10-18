@@ -18,6 +18,13 @@
     "title": "Projects",
     "subtitle": "My work",
     "description": "The following projects highlight my skills and experience through real-world examples. Each includes a brief description, along with links to code repositories and live demos. They demonstrate my ability to solve complex problems, work with diverse technologies, and manage projects effectively.",
+    "langBtns": {
+      "all": "All",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "react": "React",
+      "next": "Next"
+    },
     "projectCards": {
       "imovies": {
         "title": "iMovies",

@@ -18,6 +18,13 @@
     "title": "Loyihalar",
     "subtitle": "Mening ishim",
     "description": "Quyidagi loyihalar mening ko'nikmalarim va tajribamni haqiqiy misollar orqali ta'kidlaydi. Har birida kod omborlari va jonli demolarga havolalar bilan birga qisqacha tavsif mavjud. Ular mening murakkab muammolarni hal qilish, turli texnologiyalar bilan ishlash va loyihalarni samarali boshqarish qobiliyatimni namoyish etadi.",
+    "langBtns": {
+      "all": "Hammasi",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "react": "React",
+      "next": "Next"
+    },
     "projectCards": {
       "imovies": {
         "title": "iMovies",

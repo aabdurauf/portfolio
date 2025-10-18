@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const Projects = () => {
   const { t } = useTranslation()
-  const [active, setActive] = useState<string>("All")
+  const [active, setActive] = useState<string>("projects.langBtns.all")
 
   const filterProjects = (projectLang: string) => {
     if (projectLang !== active) {
@@ -32,19 +32,19 @@ const Projects = () => {
       </motion.p>
 
       <div className="flex gap-5 mt-5">
-        {progLangs.map((language) => (
+        {progLangs.map((language, index) => (
           <button
-            key={language.name}
+            key={index}
             onClick={() => {
               filterProjects(language.name)
               setActive(language.name)
             }}
             className={`${active === language.name ? "dark:text-white text-primary" : "text-secondaryLightText dark:text-secondary"} hover:text-primary dark:hover:text-white duration-300`}
           >
-            {language.name}
+            {t(language.name)}
           </button>
         ))}
-      </div >
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-6">
         {projects.map((project, index) => (

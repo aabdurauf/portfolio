@@ -82,19 +82,19 @@ const technologies = [
 
 const progLangs = [
     {
-        name: "All"
+        name: "projects.langBtns.all"
     },
     {
-        name: "JavaScript"
+        name: "projects.langBtns.javascript"
     },
     {
-        name: "TypeScript"
+        name: "projects.langBtns.typescript"
     },
     {
-        name: "React"
+        name: "projects.langBtns.react"
     },
     {
-        name: "Next"
+        name: "projects.langBtns.next"
     }
 ]
 
