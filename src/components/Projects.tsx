@@ -2,14 +2,12 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import { progLangs, projects } from "../constants";
+import { projects } from "../constants";
 import { ProjectCard } from "./";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
 
 const Projects = () => {
   const { t } = useTranslation()
-  const [activeCat, setActiveCat] = useState<string>("projects.langBtns.all")
 
   return (
     <>
@@ -24,20 +22,6 @@ const Projects = () => {
       >
         {t("projects.description")}
       </motion.p>
-
-      <div className="flex gap-5 mt-5">
-        {progLangs.map((language, index) => (
-          <button
-            key={index}
-            onClick={() => {
-              setActiveCat(language.name)
-            }}
-            className={`${activeCat === language.name ? "dark:text-white text-primary" : "text-secondaryLightText dark:text-secondary"} hover:text-primary dark:hover:text-white duration-300`}
-          >
-            {t(language.name)}
-          </button>
-        ))}
-      </div>
 
       <div className="mt-10 flex flex-wrap gap-6">
         {projects.map((project, index) => (

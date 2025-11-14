@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Men haqimda",
+    "experience": "Tajriba",
     "projects": "Loyihalar",
     "contact": "Aloqa"
   },
@@ -14,17 +15,14 @@
     "subtitle": "Kirish",
     "description": "HTML, CSS, JavaScript, TypeScript va React bo'yicha tajribaga ega Frontend Developer, O'zbekiston, Toshkent shahrida joylashgan. Jamoa hamkorligida ham, mustaqil ishda ham malakali bo'lganim uchun men yuqori sifatli, foydalanuvchiga yo'naltirilgan yechimlarni taqdim etaman. Kuchli ish axloqi va natijalarga asoslangan yondashuv bilan uzluksiz o'rganish va o'z ko'nikmalarimni ta'sirchan, real dunyo mahsulotlarida qo'llashga sodiqman."
   },
+  "experience": {
+    "title": "Tajriba",
+    "subtitle": "Men hozirgacha nima qildim"
+  },
   "projects": {
     "title": "Loyihalar",
     "subtitle": "Mening ishim",
     "description": "Quyidagi loyihalar mening ko'nikmalarim va tajribamni haqiqiy misollar orqali ta'kidlaydi. Har birida kod omborlari va jonli demolarga havolalar bilan birga qisqacha tavsif mavjud. Ular mening murakkab muammolarni hal qilish, turli texnologiyalar bilan ishlash va loyihalarni samarali boshqarish qobiliyatimni namoyish etadi.",
-    "langBtns": {
-      "all": "Hammasi",
-      "javascript": "JavaScript",
-      "typescript": "TypeScript",
-      "react": "React",
-      "next": "Next"
-    },
     "projectCards": {
       "imovies": {
         "title": "iMovies",

@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "About",
+    "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -14,17 +15,14 @@
     "subtitle": "Introduction",
     "description": "Frontend Developer based in Tashkent, Uzbekistan, with expertise in HTML, CSS, JavaScript, TypeScript, and React. Skilled in both team collaboration and independent work, I deliver high-quality, user-focused solutions. Committed to continuous learning and applying my skills to impactful, real-world products with a strong work ethic and results-driven approach."
   },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "What I have done so far"
+  },
   "projects": {
     "title": "Projects",
     "subtitle": "My work",
     "description": "The following projects highlight my skills and experience through real-world examples. Each includes a brief description, along with links to code repositories and live demos. They demonstrate my ability to solve complex problems, work with diverse technologies, and manage projects effectively.",
-    "langBtns": {
-      "all": "All",
-      "javascript": "JavaScript",
-      "typescript": "TypeScript",
-      "react": "React",
-      "next": "Next"
-    },
     "projectCards": {
       "imovies": {
         "title": "iMovies",

@@ -24,6 +24,10 @@ const navLinks = [
         title: "nav.about",
     },
     {
+        id: "experience",
+        title: "nav.experience",
+    },
+    {
         id: "projects",
         title: "nav.projects",
     },
@@ -80,21 +84,9 @@ const technologies = [
     },
 ];
 
-const progLangs = [
+const experience = [
     {
-        name: "projects.langBtns.all"
-    },
-    {
-        name: "projects.langBtns.javascript"
-    },
-    {
-        name: "projects.langBtns.typescript"
-    },
-    {
-        name: "projects.langBtns.react"
-    },
-    {
-        name: "projects.langBtns.next"
+
     }
 ]
 
@@ -103,7 +95,6 @@ const projects = [
         name: "projects.projectCards.lofi.title",
         deploy: "https://lofi-five-sigma.vercel.app/",
         description: "projects.projectCards.lofi.description",
-        langCreated: "Next",
         tags: [
             {
                 name: "next",
@@ -129,7 +120,6 @@ const projects = [
         name: "projects.projectCards.lumia.title",
         deploy: "https://aabdurauf.github.io/lumia-clone/",
         description: "projects.projectCards.lumia.description",
-        langCreated: "JavaScript",
         tags: [
             {
                 name: "html",
@@ -155,7 +145,6 @@ const projects = [
         name: "projects.projectCards.weather.title",
         deploy: "https://weather-app-aabdurauf.netlify.app/",
         description: "projects.projectCards.weather.description",
-        langCreated: "React",
         tags: [
             {
                 name: "react",
@@ -177,7 +166,6 @@ const projects = [
         name: "projects.projectCards.todo.title",
         deploy: "https://todo-app-aabdurauf.netlify.app/",
         description: "projects.projectCards.todo.description",
-        langCreated: "React",
         tags: [
             {
                 name: "react",
@@ -203,7 +191,6 @@ const projects = [
         name: "projects.projectCards.rsCV.title",
         deploy: "https://aabdurauf.github.io/rsschool-cv/",
         description: "projects.projectCards.rsCV.description",
-        langCreated: "TypeScript",
         tags: [
             {
                 name: "html",
@@ -225,7 +212,6 @@ const projects = [
         name: "projects.projectCards.colorGen.title",
         deploy: "https://aabdurauf.github.io/random-color-generator/",
         description: "projects.projectCards.colorGen.description",
-        langCreated: "JavaScript",
         tags: [
             {
                 name: "html",
@@ -245,4 +231,4 @@ const projects = [
     },
 ]
 
-export { navLinks, progLangs, technologies, projects }
+export { navLinks, technologies, projects }
