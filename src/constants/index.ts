@@ -84,7 +84,7 @@ const technologies = [
     },
 ];
 
-const experience = [
+const experiences = [
     {
 
     }
@@ -231,4 +231,4 @@ const projects = [
     },
 ]
 
-export { navLinks, technologies, projects }
+export { navLinks, technologies, projects, experiences }

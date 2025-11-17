@@ -102,7 +102,7 @@ const Navbar = () => {
           </a>
         </h1>
         <div className="flex items-center gap-5">
-          <ul className="list-none hidden sm:flex flex-row gap-10">
+          <ul className="list-none hidden md:flex flex-row gap-10">
             {navLinks.map((link, index) => (
               <li
                 key={index}
@@ -118,7 +118,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className="flex gap-5 sm:text-[18px] text-[25px]">
+          <div className="flex gap-5 md:text-[18px] text-[25px]">
             <div className="relative">
               <IoLanguageSharp
                 onClick={() => {
@@ -126,7 +126,7 @@ const Navbar = () => {
                   setToggle(false)
                   setThemeModal(false)
                 }}
-                className="dark:text-white dark:hover:text-white hover:text-primary text-primary dark:sm:text-secondary sm:text-secondaryLightText cursor-pointer duration-300"
+                className="dark:text-white dark:hover:text-white hover:text-primary text-primary dark:md:text-secondary md:text-secondaryLightText cursor-pointer duration-300"
               />
               <AnimatePresence>
                 {langModal && (
@@ -179,7 +179,7 @@ const Navbar = () => {
                   setToggle(false)
                   setLangModal(false)
                 }}
-                className="dark:text-white dark:hover:text-white hover:text-primary text-primary dark:sm:text-secondary sm:text-secondaryLightText cursor-pointer duration-300"
+                className="dark:text-white dark:hover:text-white hover:text-primary text-primary dark:md:text-secondary md:text-secondaryLightText cursor-pointer duration-300"
               />
               <ThemeMenu
                 themeModal={themeModal}
@@ -189,7 +189,7 @@ const Navbar = () => {
           </div>
 
           {/* small size */}
-          <div className="sm:hidden flex flex-1 justify-end items-center">
+          <div className="md:hidden flex flex-1 justify-end items-center">
             <Fade
               duration={0.3}
               toggled={toggle}
