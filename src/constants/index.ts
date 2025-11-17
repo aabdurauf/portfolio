@@ -16,6 +16,7 @@ import {
     weatherApp,
     github,
     lofi,
+    itransition,
 } from "../assets"
 
 const navLinks = [
@@ -86,7 +87,15 @@ const technologies = [
 
 const experiences = [
     {
-
+        title: "Full Stack Developer",
+        company_name: "Itransition",
+        icon: itransition,
+        iconBg: "#e6dedd",
+        date: "Jan 2023 - March 2023",
+        points: [
+            "Developing web applications using React.js, Node.js and MySql.",
+            "Implementing responsive design and ensuring cross-browser compatability."
+        ]
     }
 ]
 
