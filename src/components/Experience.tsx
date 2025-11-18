@@ -3,7 +3,7 @@ import { textVariant } from "../utils/motion"
 import { styles } from "../styles"
 import { useTranslation } from "react-i18next"
 import { SectionWrapper } from "../hoc"
-import { VericalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css"
 
 const Experience = () => {
@@ -15,6 +15,14 @@ const Experience = () => {
         <p className={`${styles.sectionSubText}`}>{t("experience.subtitle")}</p>
         <h2 className={styles.sectionHeadText}>{t("experience.title")}.</h2>
       </motion.div>
+
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeline>
+          <VerticalTimelineElement>
+
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
     </>
   )
 }
