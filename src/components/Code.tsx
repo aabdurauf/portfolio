@@ -27,6 +27,8 @@ const Code = () => {
             <span className="font-mono text-gray-400">['</span>
             <span className="font-mono text-amber-300">React</span>
             <span className="font-mono text-gray-400">', '</span>
+            <span className="font-mono text-amber-300">TypeScript</span>
+            <span className="font-mono text-gray-400">', '</span>
             <span className="font-mono text-amber-300">JavaScript</span>
             <span className="font-mono text-gray-400">'],</span>
           </div>
