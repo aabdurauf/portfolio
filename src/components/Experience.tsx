@@ -3,8 +3,10 @@ import { textVariant } from "../utils/motion"
 import { styles } from "../styles"
 import { useTranslation } from "react-i18next"
 import { SectionWrapper } from "../hoc"
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { VerticalTimeline } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css"
+import { experiences } from "../constants"
+import { ExperienceCard } from "./"
 
 const Experience = () => {
   const { t } = useTranslation()
@@ -18,9 +20,12 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          <VerticalTimelineElement>
-
-          </VerticalTimelineElement>
+          {experiences.map((experience, index) => (
+            <ExperienceCard
+              key={index}
+              experience={experience}
+            />
+          ))}
         </VerticalTimeline>
       </div>
     </>
