@@ -8,6 +8,7 @@ declare module "react-vertical-timeline-component" {
     date?: string | JSX.Element
     iconStyle?: React.CSSProperties
     icon?: JSX.Element
+    className?: string
   }
 
   export class VerticalTimelineElement extends React.Component<VerticalTimelineElementProps> { }
