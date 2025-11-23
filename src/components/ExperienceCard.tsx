@@ -3,6 +3,7 @@ import { VerticalTimelineElement } from "react-vertical-timeline-component"
 const ExperienceCard = ({ experience }: any) => {
   return (
     <VerticalTimelineElement
+      contentStyle={{ background: "#1d1836", color: "#fff" }}
       className=""
       date={experience.date}
       iconStyle={{ overflow: "hidden" }}
