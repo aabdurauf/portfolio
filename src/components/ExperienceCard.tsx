@@ -1,18 +1,28 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component"
 import { useTheme } from "../context/themeContext"
 import { useTranslation } from "react-i18next"
+import { useEffect, useState } from "react"
 
 const ExperienceCard = ({ experience }: any) => {
   const theme = useTheme()
   const { t } = useTranslation()
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth)
 
   const color = theme.theme === "Dark" ? "#ffffff" : "#151030"
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth)
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [])
 
   return (
     <VerticalTimelineElement
       contentStyle={{ background: "#151030" }}
       contentArrowStyle={{ borderRight: `7px solid ${color}` }}
-      className="dark:text-white text-black"
+      className={`dark:text-white ${windowWidth < 1170 ? "text-white" : "text-black"}`}
       date={t(experience.date)}
       iconStyle={{ boxShadow: `0px 0px 0px 4px ${color}`, overflow: "hidden" }}
       icon={
