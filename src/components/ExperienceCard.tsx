@@ -1,8 +1,10 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component"
 import { useTheme } from "../context/themeContext"
+import { useTranslation } from "react-i18next"
 
 const ExperienceCard = ({ experience }: any) => {
   const theme = useTheme()
+  const { t } = useTranslation()
 
   const color = theme.theme === "Dark" ? "#ffffff" : "#151030"
 
@@ -11,7 +13,7 @@ const ExperienceCard = ({ experience }: any) => {
       contentStyle={{ background: "#151030" }}
       contentArrowStyle={{ borderRight: `7px solid ${color}` }}
       className="dark:text-white text-black"
-      date={experience.date}
+      date={t(experience.date)}
       iconStyle={{ boxShadow: `0px 0px 0px 4px ${color}`, overflow: "hidden" }}
       icon={
         <div className="w-full h-full flex justify-center items-center">
@@ -23,14 +25,16 @@ const ExperienceCard = ({ experience }: any) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px]">{experience.title}</h3>
-        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{experience.company_name}</p>
+        <h3 className="text-white text-[24px]">{t(experience.title)}</h3>
+        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{t(experience.company_name)}</p>
         <ul className="mt-5 list-disc ml-5 space-y-2">
-          {experience.points.map((point: string, index: number) => (
-            <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
-              {point}
-            </li>
-          ))}
+          {experience.points.map((point: string, index: number) => {
+            return (
+              <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
+                {t(point)}
+              </li>
+            )
+          })}
         </ul>
       </div>
     </VerticalTimelineElement>

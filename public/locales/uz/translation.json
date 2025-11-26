@@ -17,7 +17,18 @@
   },
   "experience": {
     "title": "Tajriba",
-    "subtitle": "Men hozirgacha nima qildim"
+    "subtitle": "Men hozirgacha nima qildim",
+    "experiences": {
+      "itransition": {
+        "title": "Full Stack Dasturchi",
+        "company_name": "Itransition",
+        "date": "Yanvar 2023 - Mart 2023",
+        "points": [
+          "React.js, Node.js va MySql yordamida veb-ilovalarni ishlab chiqish.",
+          "Moslashuvchan dizaynni joriy etish va brauzerlararo moslikni ta'minlash."
+        ]
+      }
+    }
   },
   "projects": {
     "title": "Loyihalar",

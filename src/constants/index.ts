@@ -88,13 +88,13 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Full Stack Developer",
-        company_name: "Itransition",
+        title: "experience.experiences.itransition.title",
+        company_name: "experience.experiences.itransition.company_name",
         icon: itransition,
-        date: "Jan 2023 - March 2023",
+        date: "experience.experiences.itransition.date",
         points: [
-            "Developing web applications using React.js, Node.js and MySql.",
-            "Implementing responsive design and ensuring cross-browser compatability."
+            "experience.experiences.itransition.points.0",
+            "experience.experiences.itransition.points.1"
         ]
     }
 ]

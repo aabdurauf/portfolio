@@ -17,7 +17,18 @@
   },
   "experience": {
     "title": "Опыт",
-    "subtitle": "Что я уже сделал"
+    "subtitle": "Что я уже сделал",
+    "experiences": {
+      "itransition": {
+        "title": "Full Stack Разработчик",
+        "company_name": "Itransition",
+        "date": "Январь 2023 - Март 2023",
+        "points": [
+          "Разработка веб-приложений с использованием React.js, Node.js и MySql.",
+          "Реализация адаптивного дизайна и обеспечение кроссбраузерной совместимости."
+        ]
+      }
+    }
   },
   "projects": {
     "title": "Проекты",
