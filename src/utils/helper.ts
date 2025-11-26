@@ -13,5 +13,5 @@ export const saveTheme = (theme: string) => {
 
 export const getTheme = () => {
   const theme = localStorage.getItem("theme");
-  return theme ? theme : "";
+  return theme ? theme : "dark";
 }

@@ -1,12 +1,18 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component"
+import { useTheme } from "../context/themeContext"
 
 const ExperienceCard = ({ experience }: any) => {
+  const theme = useTheme()
+
+  const color = theme.theme === "Dark" ? "#ffffff" : "#151030"
+
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: "#1d1836", color: "#fff" }}
-      className=""
+      contentStyle={{ background: "#151030" }}
+      contentArrowStyle={{ borderRight: `7px solid ${color}` }}
+      className="dark:text-white text-black"
       date={experience.date}
-      iconStyle={{ overflow: "hidden" }}
+      iconStyle={{ boxShadow: `0px 0px 0px 4px ${color}`, overflow: "hidden" }}
       icon={
         <div className="w-full h-full flex justify-center items-center">
           <img

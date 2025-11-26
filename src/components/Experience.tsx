@@ -7,9 +7,14 @@ import { VerticalTimeline } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css"
 import { experiences } from "../constants"
 import { ExperienceCard } from "./"
+import { useTheme } from "../context/themeContext"
 
 const Experience = () => {
   const { t } = useTranslation()
+
+  const theme = useTheme()
+
+  const lineColor = theme.theme === "Dark" ? "#ffffff" : "#151030"
 
   return (
     <>
@@ -19,7 +24,9 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline
+          lineColor={lineColor}
+        >
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={index}
