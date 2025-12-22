@@ -169,7 +169,7 @@ const projects = [
             },
         ],
         image: weatherApp,
-        source_code_link: "https://github.com/aabdurauf/react-weather-app/",
+        source_code_link: "https://github.com/aabdurauf/weather-app/",
     },
     {
         name: "projects.projectCards.todo.title",
@@ -239,5 +239,6 @@ const projects = [
         source_code_link: "https://github.com/aabdurauf/random-color-generator",
     },
 ]
+
 
 export { navLinks, technologies, projects, experiences }
