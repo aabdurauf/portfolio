@@ -6,7 +6,7 @@ Welcome to my personal website repository!
 
 This repository contains the source code for my personal website. It showcases my portfolio, projects, and provides information about me.
 
-#### Live: https://abdurauf.dev/
+#### Live: [https://portfolio-aabdurauf.netlify.app/](https://portfolio-aabdurauf.netlify.app/)
 
 ### Installation
 
