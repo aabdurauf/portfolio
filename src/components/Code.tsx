@@ -25,11 +25,11 @@ const Code = () => {
           <div>
             <span className="font-mono text-white ml-8 mr-2">skills:</span>
             <span className="font-mono text-gray-400">['</span>
-            <span className="font-mono text-amber-300">React</span>
+            <span className="font-mono text-amber-300">Docker</span>
             <span className="font-mono text-gray-400">', '</span>
-            <span className="font-mono text-amber-300">TypeScript</span>
+            <span className="font-mono text-amber-300">Linux</span>
             <span className="font-mono text-gray-400">', '</span>
-            <span className="font-mono text-amber-300">JavaScript</span>
+            <span className="font-mono text-amber-300">JS/TS</span>
             <span className="font-mono text-gray-400">'],</span>
           </div>
           <div>

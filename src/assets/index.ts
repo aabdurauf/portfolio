@@ -21,8 +21,12 @@ import github from "./images/skills/github.png"
 import lofi from "./images/projects/lofi.png"
 import githubLight from "./images/socials/github-mark.svg"
 import itransition from "./images/experiences/itransition.jpeg"
+import linux from "./images/skills/linux.png"
+import docker from "./images/skills/docker.png"
 
 export {
+  docker,
+  linux,
   itransition,
   githubLight,
   lofi,

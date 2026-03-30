@@ -6,14 +6,14 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Hey, I'm <pink>Abdurauf</pink> - <block>Frontend Developer</block>",
-    "firstSubtitle": "<bold>Crafting Engaging</bold> and <bold>Dynamic User Experiences</bold> with Modern Frontend Development",
+    "title": "<pink>DevOps</pink> Engineer - with <pink>Frontend</pink> expertise",
+    "firstSubtitle": "Building scalable infrastructure and engaging user experiences with <bold>DevOps</bold> and <bold>Frontend</bold> technologies",
     "secondSubtitle": "Delivering <bold>High-Performance</bold>, <bold>User-Centric</bold> Web Applications"
   },
   "about": {
     "title": "About",
     "subtitle": "Introduction",
-    "description": "Frontend Developer based in Tashkent, Uzbekistan, with expertise in HTML, CSS, JavaScript, TypeScript, and React. Skilled in both team collaboration and independent work, I deliver high-quality, user-focused solutions. Committed to continuous learning and applying my skills to impactful, real-world products with a strong work ethic and results-driven approach."
+    "description": "DevOps Engineer based in Tashkent, Uzbekistan, with a frontend background. Focused on automation, scalable infrastructure, and high-performance applications, combining development insight with operational excellence to deliver reliable, user-focused solutions."
   },
   "experience": {
     "title": "Experience",

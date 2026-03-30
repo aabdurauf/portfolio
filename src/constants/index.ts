@@ -16,7 +16,9 @@ import {
     weatherApp,
     github,
     lofi,
-    itransition
+    itransition,
+    linux,
+    docker
 } from "../assets"
 
 
@@ -53,8 +55,16 @@ const technologies = [
         icon: sass
     },
     {
+        name: "Docker",
+        icon: docker
+    },
+    {
         name: "JavaScript",
         icon: javascript,
+    },
+    {
+        name: "Linux",
+        icon: linux
     },
     {
         name: "TypeScript",

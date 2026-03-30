@@ -6,14 +6,14 @@
     "contact": "Aloqa"
   },
   "hero": {
-    "title": "Salom, Men <pink>Abdurauf</pink> - <block>Frontend Dasturchiman</block>",
-    "firstSubtitle": "Zamonaviy Frontend Dasturlash bilan <bold>Qiziqarli Saytlar</bold> va <bold>Dinamik Saytlar</bold> yaratish",
+    "title": "<pink>DevOps</pink> - injiner <pink>Frontend</pink> tajribasi bilan",
+    "firstSubtitle": "Kengaytiriladigan infratuzilmani yaratish, <bold>DevOps</bold> va <bold>Frontend</bold> texnologiyalari bilan foydalanuvchilarni jalb qilish",
     "secondSubtitle": "<bold>Yuqori Unumli</bold>, <bold>Foydalanuvchiga yo'naltirilgan</bold> Veb-Ilovalarni yetkazib berish"
   },
   "about": {
     "title": "Men haqimda",
     "subtitle": "Kirish",
-    "description": "HTML, CSS, JavaScript, TypeScript va React bo'yicha tajribaga ega Frontend Developer, O'zbekiston, Toshkent shahrida joylashgan. Jamoa hamkorligida ham, mustaqil ishda ham malakali bo'lganim uchun men yuqori sifatli, foydalanuvchiga yo'naltirilgan yechimlarni taqdim etaman. Kuchli ish axloqi va natijalarga asoslangan yondashuv bilan uzluksiz o'rganish va o'z ko'nikmalarimni ta'sirchan, real dunyo mahsulotlarida qo'llashga sodiqman."
+    "description": "DevOps injiner Toshkentda, O'zbekistonda, frontend bilimi bilan. Avtomatlashtirish, kengaytiriladigan infratuzilma va yuqori unumdor ilovalarga e'tibor qaratilib, ishonchli, foydalanuvchiga yo'naltirilgan yechimlarni taqdim etish uchun rivojlanish tushunchalarini operatsion mukammallik bilan uyg'unlashtiradi."
   },
   "experience": {
     "title": "Tajriba",
