@@ -16,9 +16,7 @@ import {
     weatherApp,
     github,
     lofi,
-    itransition,
     linux,
-    docker
 } from "../assets"
 
 
@@ -26,10 +24,6 @@ const navLinks = [
     {
         id: "about",
         title: "nav.about",
-    },
-    {
-        id: "experience",
-        title: "nav.experience",
     },
     {
         id: "projects",
@@ -53,10 +47,6 @@ const technologies = [
     {
         name: "Scss",
         icon: sass
-    },
-    {
-        name: "Docker",
-        icon: docker
     },
     {
         name: "JavaScript",
@@ -95,19 +85,6 @@ const technologies = [
         icon: github,
     },
 ];
-
-const experiences = [
-    {
-        title: "experience.experiences.itransition.title",
-        company_name: "experience.experiences.itransition.company_name",
-        icon: itransition,
-        date: "experience.experiences.itransition.date",
-        points: [
-            "experience.experiences.itransition.points.0",
-            "experience.experiences.itransition.points.1"
-        ]
-    }
-]
 
 const projects = [
     {
@@ -251,4 +228,4 @@ const projects = [
 ]
 
 
-export { navLinks, technologies, projects, experiences }
+export { navLinks, technologies, projects }

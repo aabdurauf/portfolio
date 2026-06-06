@@ -1,4 +1,4 @@
-import { About, Hero, Navbar, Projects, Contact, Footer, ScrollUpBtn, Experience } from "./components";
+import { About, Hero, Navbar, Projects, Contact, Footer, ScrollUpBtn } from "./components";
 import { StarsCanvas } from "./components/canvas";
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <ScrollUpBtn />
       <Hero />
       <About />
-      <Experience />
       <Projects />
       <section id="contact" className="relative z-0">
         <Contact />

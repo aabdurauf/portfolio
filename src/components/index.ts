@@ -10,7 +10,5 @@ import ProjectCard from "./ProjectCard"
 import Loading from "./Loading"
 import ThemeMenu from "./ThemeMenu"
 import Code from "./Code"
-import Experience from "./Experience"
-import ExperienceCard from "./ExperienceCard"
 
-export { ExperienceCard, Experience, Code, Loading, Navbar, Hero, CanvasLoader, About, Projects, Contact, Footer, ProjectCard, ScrollUpBtn, ThemeMenu }
+export { Code, Loading, Navbar, Hero, CanvasLoader, About, Projects, Contact, Footer, ProjectCard, ScrollUpBtn, ThemeMenu }

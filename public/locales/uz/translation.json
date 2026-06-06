@@ -1,34 +1,18 @@
 {
   "nav": {
     "about": "Men haqimda",
-    "experience": "Tajriba",
     "projects": "Loyihalar",
     "contact": "Aloqa"
   },
   "hero": {
-    "title": "<pink>DevOps</pink> - injiner <pink>Frontend</pink> tajribasi bilan",
-    "firstSubtitle": "Kengaytiriladigan infratuzilmani yaratish, <bold>DevOps</bold> va <bold>Frontend</bold> texnologiyalari bilan foydalanuvchilarni jalb qilish",
-    "secondSubtitle": "<bold>Yuqori Unumli</bold>, <bold>Foydalanuvchiga yo'naltirilgan</bold> Veb-Ilovalarni yetkazib berish"
+    "title": "<pink>Dasturiy ta’minot</pink> ishlab chiquvchisi — <pink>Frontend</pink> tajribasi bilan",
+    "firstSubtitle": "<bold>Dasturiy ta’minot ishlab chiqish</bold> va <bold>Frontend</bold> texnologiyalari yordamida masshtablanuvchi yechimlar hamda zamonaviy foydalanuvchi interfeyslarini yarataman",
+    "secondSubtitle": "<bold>Sifatli</bold>, <bold>yuqori unumdorlikka ega</bold> va <bold>foydalanuvchiga yo‘naltirilgan</bold> ilovalarni ishlab chiqaman"
   },
   "about": {
     "title": "Men haqimda",
     "subtitle": "Kirish",
-    "description": "DevOps injiner Toshkentda, O'zbekistonda, frontend bilimi bilan. Avtomatlashtirish, kengaytiriladigan infratuzilma va yuqori unumdor ilovalarga e'tibor qaratilib, ishonchli, foydalanuvchiga yo'naltirilgan yechimlarni taqdim etish uchun rivojlanish tushunchalarini operatsion mukammallik bilan uyg'unlashtiradi."
-  },
-  "experience": {
-    "title": "Tajriba",
-    "subtitle": "Men hozirgacha nima qildim",
-    "experiences": {
-      "itransition": {
-        "title": "Full Stack Dasturchi",
-        "company_name": "Itransition",
-        "date": "Oktyabr 2025 - Dekabr 2025",
-        "points": [
-          "React.js, Node.js va MySql yordamida veb-ilovalarni ishlab chiqish.",
-          "Moslashuvchan dizaynni joriy etish va brauzerlararo moslikni ta'minlash."
-        ]
-      }
-    }
+    "description": "Toshkent, O‘zbekiston shahrida faoliyat yurituvchi dasturiy ta’minot ishlab chiquvchisi. Frontend rivojlantirish bo‘yicha tajribaga ega bo‘lib, zamonaviy veb-texnologiyalar yordamida masshtablanuvchi, yuqori unumdorlikka ega va foydalanuvchi uchun qulay ilovalarni yaratishga ixtisoslashganman."
   },
   "projects": {
     "title": "Loyihalar",

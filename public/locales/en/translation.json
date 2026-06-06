@@ -1,34 +1,18 @@
 {
   "nav": {
     "about": "About",
-    "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact"
   },
   "hero": {
-    "title": "<pink>DevOps</pink> Engineer - with <pink>Frontend</pink> expertise",
-    "firstSubtitle": "Building scalable infrastructure and engaging user experiences with <bold>DevOps</bold> and <bold>Frontend</bold> technologies",
-    "secondSubtitle": "Delivering <bold>High-Performance</bold>, <bold>User-Centric</bold> Web Applications"
+    "title": "<pink>Software</pink> Developer - with <pink>Frontend</pink> Expertise",
+    "firstSubtitle": "Developing scalable software solutions and engaging user experiences with <bold>Software Development</bold> and <bold>Frontend</bold> technologies",
+    "secondSubtitle": "Delivering <bold>High-Quality</bold>, <bold>User-Centric</bold> Applications"
   },
   "about": {
     "title": "About",
     "subtitle": "Introduction",
-    "description": "DevOps Engineer based in Tashkent, Uzbekistan, with a frontend background. Focused on automation, scalable infrastructure, and high-performance applications, combining development insight with operational excellence to deliver reliable, user-focused solutions."
-  },
-  "experience": {
-    "title": "Experience",
-    "subtitle": "What I have done so far",
-    "experiences": {
-      "itransition": {
-        "title": "Full Stack Developer",
-        "company_name": "Itransition",
-        "date": "October 2025 - December 2025",
-        "points": [
-          "Developing web applications using React.js, Node.js and MySql.",
-          "Implementing responsive design and ensuring cross-browser compatability."
-        ]
-      }
-    }
+    "description": "Software Developer based in Tashkent, Uzbekistan, with strong frontend expertise. Focused on building scalable, high-performance applications and intuitive user experiences, combining software engineering principles with modern web technologies to deliver reliable, user-centric solutions."
   },
   "projects": {
     "title": "Projects",
