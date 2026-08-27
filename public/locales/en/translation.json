@@ -5,14 +5,14 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "<pink>Software</pink> Developer - with <pink>Frontend</pink> Expertise",
-    "firstSubtitle": "Developing scalable software solutions and engaging user experiences with <bold>Software Development</bold> and <bold>Frontend</bold> technologies",
+    "title": "<pink>DevOps</pink> Engineer - with <pink>Frontend</pink> Expertise",
+    "firstSubtitle": "Developing scalable software solutions and engaging user experiences with <bold>DevOps</bold> Engineering and <bold>Frontend</bold> technologies",
     "secondSubtitle": "Delivering <bold>High-Quality</bold>, <bold>User-Centric</bold> Applications"
   },
   "about": {
     "title": "About",
     "subtitle": "Introduction",
-    "description": "Software Developer based in Tashkent, Uzbekistan, with strong frontend expertise. Focused on building scalable, high-performance applications and intuitive user experiences, combining software engineering principles with modern web technologies to deliver reliable, user-centric solutions."
+    "description": "DevOps Engineer based in Tashkent, Uzbekistan, with strong frontend expertise. Focused on building scalable, high-performance applications and reliable infrastructure, combining DevOps practices with modern web technologies to deliver efficient, user-centric solutions."
   },
   "projects": {
     "title": "Projects",

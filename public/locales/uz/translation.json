@@ -5,14 +5,14 @@
     "contact": "Aloqa"
   },
   "hero": {
-    "title": "<pink>Dasturiy ta’minot</pink> ishlab chiquvchisi — <pink>Frontend</pink> tajribasi bilan",
-    "firstSubtitle": "<bold>Dasturiy ta’minot ishlab chiqish</bold> va <bold>Frontend</bold> texnologiyalari yordamida masshtablanuvchi yechimlar hamda zamonaviy foydalanuvchi interfeyslarini yarataman",
+    "title": "<pink>Frontend</pink> bo'yicha tajribaga ega - <pink>DevOps</pink> muhandisi",
+    "firstSubtitle": "<bold>DevOps</bold> muhandisligi va <bold>Frontend</bold> texnologiyalari yordamida kengaytiriladigan dasturiy yechimlar hamda foydalanuvchilar uchun jozibali tajribalarni yaratish",
     "secondSubtitle": "<bold>Sifatli</bold>, <bold>yuqori unumdorlikka ega</bold> va <bold>foydalanuvchiga yo‘naltirilgan</bold> ilovalarni ishlab chiqaman"
   },
   "about": {
     "title": "Men haqimda",
     "subtitle": "Kirish",
-    "description": "Toshkent, O‘zbekiston shahrida faoliyat yurituvchi dasturiy ta’minot ishlab chiquvchisi. Frontend rivojlantirish bo‘yicha tajribaga ega bo‘lib, zamonaviy veb-texnologiyalar yordamida masshtablanuvchi, yuqori unumdorlikka ega va foydalanuvchi uchun qulay ilovalarni yaratishga ixtisoslashganman."
+    "description": "Toshkent, O‘zbekiston shahrida faoliyat yurituvchi frontend yo‘nalishida kuchli tajribaga ega DevOps muhandisi. Samarali va foydalanuvchiga yo‘naltirilgan yechimlarni taqdim etish maqsadida DevOps amaliyotlarini zamonaviy veb-texnologiyalar bilan uyg‘unlashtirib, kengaytirilishi mumkin bo‘lgan yuqori unumdor ilovalar hamda ishonchli infratuzilmani yaratishga ixtisoslashgan."
   },
   "projects": {
     "title": "Loyihalar",
